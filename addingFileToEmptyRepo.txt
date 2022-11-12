@@ -1,5 +1,5 @@
 git init -b main
 git add .
 git commit -m "<some_message>" 
-git add remote origin https://github.com/<username>/<repo_name>.git
+git remote add origin https://github.com/<username>/<repo_name>.git
 git push -u origin main
